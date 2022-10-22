@@ -4,8 +4,8 @@ name: ghes-backup-cron
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron:  '22 2 * * *'
+   schedule:
+              * * * * *
 
 jobs:
   ghes-backup:
